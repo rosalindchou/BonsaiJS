@@ -1,0 +1,181 @@
+<html><body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bonsai/0.4/bonsai.min.js"></script>
+<div id="movie"></div>
+<script>
+  bonsai.run(document.getElementById('movie'), {
+    code: function() {
+       var pusheen = new Path()
+  .moveTo(220,90)
+  .lineTo(230,90)
+  .lineTo(290,155)
+  .lineTo(500,155)
+  .lineTo(560,90)
+  .lineTo(570,90)
+  .lineTo(575,93)
+  .lineTo(665,400)
+  .lineTo(680,600)
+  .lineTo(685,650)
+  .lineTo(670,700)
+  .lineTo(665,705)
+  .lineTo(685,710)
+  .lineTo(685,723)
+  .lineTo(665,725)
+  .lineTo(400,725)
+  .lineTo(380,705)
+  .lineTo(360,705)
+  .lineTo(380,705)
+  .lineTo(400,725)
+  .lineTo(40,725)
+  .lineTo(38,720)
+  .lineTo(36,715)
+  .lineTo(40,695)
+  .lineTo(140,680)
+  .lineTo(125,660)
+  .lineTo(100,550)
+  .lineTo(90,460)
+  .lineTo(100,400)
+  .lineTo(110,350)
+  .closePath()
+  .fill('#b2aba7')
+  .stroke('#472610' , 6)
+  .addTo (stage);
+var bread2 = new Rect(300, 335, 200, 100, 45);
+bread2.fill('#dbcba0');
+bread2.stroke('#472610', 7);
+bread2.addTo (stage);
+var bread = new Arc(400,509,120,7*Math.PI/4,5*Math.PI/4,false);
+bread.fill('#dbcba0');
+bread.stroke('#472610', 7);
+bread.addTo (stage);
+var donut = new Ellipse(400,350,100,90);
+donut.fill('pink');
+donut.stroke('#472610', 7);
+donut.addTo (stage);
+var inner = new Ellipse(400,350,25,20);
+inner.fill('#dbcba0');
+inner.stroke('#472610', 7);
+inner.addTo (stage);
+var green = new Circle(340,340,15);
+green.fill('#9ffcae');
+green.addTo (stage);
+var blue = new Circle(380,290,15);
+blue.fill('#c1f2ff');
+blue.addTo (stage);
+var orange = new Circle(440,300,15);
+orange.fill('#fca47e');
+orange.addTo (stage);
+var pink = new Circle(360,390,15);
+pink.fill('#fc88ca');
+pink.addTo (stage);
+var yellow = new Circle(430,395,15);
+yellow.fill('#f6ff99');
+yellow.addTo (stage);
+var purple = new Circle(470,350,15);
+purple.fill('#e6a2f9');
+purple.addTo (stage);
+var eye1 = new Circle(300,235,13);
+eye1.fill('#472610');
+eye1.addTo (stage);
+var eye2 = new Circle(500,240,13);
+eye2.fill('#472610');
+eye2.addTo (stage);
+var hand1 = new Path()
+  .moveTo(310,455)
+  .lineTo(330,440)
+  .lineTo(350,445)
+  .lineTo(350,450)
+  .lineTo(325,470)
+  .stroke('#472610' , 7)
+  .addTo (stage);
+var hand2 = new Path()
+  .moveTo(500,455)
+  .lineTo(490,430)
+  .lineTo(480,425)
+  .lineTo(470,435)
+  .lineTo(480,470)
+  .stroke('#472610' , 7)
+  .addTo (stage);
+var mouth = new Path()
+  .moveTo(370,245)
+  .lineTo(375,260)
+  .lineTo(390,260)
+  .lineTo(400,250)
+  .lineTo(410,260)
+  .lineTo(425,260)
+  .lineTo(430,245)
+  .stroke('#472610' , 8)
+  .addTo (stage);
+var whisker1 = new Path()
+  .moveTo(620,245)
+  .lineTo(660,227)
+  .stroke('#472610' , 8)
+  .addTo (stage);
+var whisker2 = new Path()
+  .moveTo(620,265)
+  .lineTo(660,270)
+  .stroke('#472610' , 8)
+  .addTo (stage);
+var whisker3 = new Path()
+  .moveTo(170,265)
+  .lineTo(115,255)
+  .stroke('#472610' , 8)
+  .addTo (stage);
+var whisker4 = new Path()
+  .moveTo(170,245)
+  .lineTo(115,220)
+  .stroke('#472610' , 8)
+  .addTo (stage);
+var tailstripe = new Circle(52,710,15);
+tailstripe.fill ('#5e594d');
+tailstripe.addTo (stage);
+var tailstripe2 = new Rect(76,687,30,40);
+tailstripe2.fill ('#5e594d');
+tailstripe2.addTo (stage);
+var tailstripe3 = new Rect(120,680,25,45);
+tailstripe3.fill ('#5e594d');
+tailstripe3.addTo (stage);
+var bodystripe = new Arc(110,375,30,4*Math.PI/3,3*Math.PI/2,true);
+bodystripe.fill ('#5e594d');
+bodystripe.addTo (stage);
+var bodystripe2 = new Arc(100,450,30,4*Math.PI/2.9,3*Math.PI/2,true);
+bodystripe2.fill ('#5e594d');
+bodystripe2.addTo (stage);
+var stripe1 = new Path()
+  .moveTo(310,155)
+  .lineTo(310,170)
+  .lineTo(340,170)
+  .lineTo(340,155)
+  .closePath()
+  .fill('#5e594d')
+  .addTo (stage);
+var stripe2 = new Path()
+  .moveTo(380,155)
+  .lineTo(380,170)
+  .lineTo(410,170)
+  .lineTo(410,155)
+  .closePath()
+  .fill('#5e594d')
+  .addTo (stage);
+var stripe3 = new Path()
+  .moveTo(450,155)
+  .lineTo(450,170)
+  .lineTo(480,170)
+  .lineTo(480,155)
+  .closePath()
+  .fill('#5e594d')
+  .addTo (stage);
+var stripe11 = new Arc(325,168,15,Math.PI,0,true);
+stripe11.fill ('#5e594d');
+stripe11.addTo (stage);
+var stripe22 = new Arc(395,168,15,Math.PI,0,true);
+stripe22.fill ('#5e594d');
+stripe22.addTo (stage);
+var stripe33 = new Arc(465,168,15,Math.PI,0,true);
+stripe33.fill ('#5e594d');
+stripe33.addTo (stage);
+    },
+    width: 1000,
+    height: 1000
+  });
+</script></body>
+</html>
